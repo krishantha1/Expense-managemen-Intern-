@@ -1,0 +1,62 @@
+enum VisaStatus {
+    PENDING
+    APPROVED
+    REJECTED
+    PROCESSING
+}
+
+enum VisaType {
+    BUSINESS_VISA
+    STUDENT_VISA
+    FREELANCE_VISA
+    VISIT_VISA
+}
+
+enum Duration {
+    THIRTY_DAYS
+    SIXTY_DAYS
+    NINETY_DAYS
+}
+
+enum EntryType {
+    SINGLE
+    MULTIPLE
+}
+
+enum PaymentMethod {
+    CASH
+    BANK_TRANSFER
+    HNB
+    COMMERCIAL_BANK
+    BOC
+    SAMPATH_BANK
+    NSB
+    DUBAI_BANK
+    ADCB
+    NDB
+    MASHREQ
+}
+
+enum Country {
+    SRI_LANKA
+    UAE
+    OMAN
+    MALAYSIA
+    INDIA
+    PAKISTAN
+    LAOS
+    AZERBAIJAN
+    INDONESIA
+    CAMBODIA
+    VIETNAM
+}
+
+enum Admin {
+    DESHAN
+    RASHMIKA
+}
+
+enum Currency {
+    LKR
+    AED
+}

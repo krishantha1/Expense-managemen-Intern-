@@ -1,0 +1,13 @@
+model Expense {
+    id            String   @id @default(uuid(7)) @db.Uuid
+    whatFor       String   @db.VarChar(200)
+    currency      Currency
+    amount        Decimal  @db.Decimal(10, 2)
+    amountInDinar Decimal? @db.Decimal(10, 2)
+    note          String?  @db.Text
+    createdAt     DateTime @default(now()) @db.Timestamptz
+    updatedAt     DateTime @updatedAt @db.Timestamptz
+    userId        String
+
+    @@map("expenses")
+}
